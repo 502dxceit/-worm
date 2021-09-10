@@ -15,8 +15,5 @@ from lxml import etree
 # print(HTML.xpath('//ul//li//a//@href'))
 # # print(HTML.xpath('//div[@class ="inytms box-pad"]//li//a/@href')) # <a href>
 
-list = [1,2,3]
-list2 = [3,4]
-list += list2
-import pandas
-print(list)
+import random
+print(random.random()+1)
